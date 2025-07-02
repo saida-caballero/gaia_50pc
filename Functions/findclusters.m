@@ -10,7 +10,7 @@ Example function call:
 
     findclusters(data{:,'RA (degrees)'}, data{:,'DEC (degrees)'}, data{:,'r_hi_geo (pc)'}, 'Example Plot')
 
-            - data for this example can be found here: https://github.com/saida-caballero/gaia_50pc
+            - data for this example can be found here: https://github.com/saida-caballero/gaia_50pc/tree/main/Data
 
 
 Input(s):
