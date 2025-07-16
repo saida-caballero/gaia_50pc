@@ -22,7 +22,7 @@ This folder contains the 2 main functions necessary to replicate our results and
 - plotstars3d.m plots your stellar data in 3D for helpful visualization
 - findclusters.m isolates over-dense areas in your input data
 - To run either of these functions you must load one of the .mat files from the [Data](Data/) folder into MATLAB, or load in your own data in a similar format. Then, call the function accordingly. See the function scripts for example function calls.
-- The [Examples](Functions/Examples/) folder contains example outputs of both of these functions when GEDR3_50pc_alldata.mat is the loaded data. PNGs are included for easy access, and .fig files are also included for more interactive understanding and modification when viewed in MATLAB.
+- The [Examples](Functions/Examples/) folder contains example outputs of both of these functions when GEDR3_50pc_alldata.mat is the loaded data. PNGs are included for easy access, and .fig files are also included for more interactive understanding and modification when viewed in MATLAB. See the function scripts for more information on what each output is.
 
 
 
