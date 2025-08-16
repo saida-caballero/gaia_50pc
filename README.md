@@ -1,5 +1,7 @@
 # Gaia 50pc Investigation
 
+This repository is for the paper Discovering 7 Potential New Clusters by Visualizing Gaia Data by R. Hicks. It is associated with the manuscript number AAS68001?.
+
 The data visualization of the RECONS 25 Parsec Database, linked [here](https://www.youtube.com/watch?v=up_MqNBv0FE&t=2s), was the initial motivation for this work. Our first goal was to create similar visual aids in MATLAB using more recent data from the Gaia Early Data Release 3 catalog. Our take on the RECONS video can be seen [here](https://drive.google.com/file/d/1Xoa4088Al3fVqOWhdOVU72jc6Bd-hA5N/view?usp=sharing). Our second visual aid plots stellar data in 3D (see plotstars3d.m). For our data this revealed highly dense regions that did not align with known star clusters, associations, or moving groups. 
 
 This led to our second goal: investigate and isolate the high-density regions within 50 pc of the Sun. We created a simple statistical process to extract the stars in dense regions by using only the distances of their nearest neighbors (see findclusters.m). 
